@@ -57,3 +57,15 @@ body {
 .container{
 	padding: 0 15px;
 }
+.order-btn{
+	text-transform: uppercase;
+    height: 50px;
+    font: 700 20px / 50px $font;
+    max-width: 320px;
+		width: 100%;
+    text-align: center;
+    background-color: #4b709b;
+    color: $white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+		margin-bottom: 30px;
+}

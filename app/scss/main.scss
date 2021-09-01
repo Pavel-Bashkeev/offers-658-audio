@@ -50,143 +50,245 @@
     top: 28px;
     left: 64px;
   }
+
   .present-element--4 {
     bottom: 121px;
     width: 130px;
     left: -12px;
     text-align: center;
     z-index: 1;
-}
-.present-bottom__age-1 {
-  top: 147px;
-  left: 21%;
-}
-.present-bottom__age-2 {
-  top: 147px;
-  left: 33%;
-}
-.present-bottom__age-3 {
-  top: 147px;
+  }
+
+  .present-bottom__age-1 {
+    top: 147px;
+    left: 21%;
+  }
+
+  .present-bottom__age-2 {
+    top: 147px;
+    left: 33%;
+  }
+
+  .present-bottom__age-3 {
+    top: 147px;
     left: 47%;
+  }
+
+  .present-bottom__age-4 {
+    top: 147px;
+    right: 105px;
+  }
+
+  .present-bottom__age-5 {
+    top: 147px;
+    right: 52px;
+  }
+
+  .present-bottom .present-bottom__text {
+    width: 100px;
+    bottom: 125px;
+    right: 0px;
+  }
+
+  .before-after__text-middle {
+    top: 92px;
+    left: 0;
+  }
+
+  .before-after__text-last {
+    bottom: 82px;
+    left: 0;
+  }
+
+  .comments-slider {
+    background-color: #f6f7f9;
+    padding: 37px 14px 40px 14px;
+  }
+
+  .comment-user__text {
+    max-width: 220px;
+  }
+
+  .comment-actions {
+    margin-left: -70px;
+  }
+
+  .comments-answer {
+    margin-left: 20px;
+    border-left: 5px solid #eaeaea;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+
+  .talk-answer__list {
+    background-image: url(../images/dest/sectionInterview/interview-bg-second.jpg);
+    padding: 43px 0px 39px 46px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+  }
 }
-.present-bottom__age-4 {
-  top: 147px;
-  right: 105px;
-}
-.present-bottom__age-5 {
-  top: 147px;
-  right: 52px;
-}
-.present-bottom .present-bottom__text {
-  width: 100px;
-  bottom: 125px;
-  right: 0px;
-}
-.before-after__text-middle {
-  top: 92px;
-  left: 0;
-}
-.before-after__text-last {
-  bottom: 82px;
-  left: 0;
-}
-.comments-slider {
-  background-color: #f6f7f9;
-  padding: 37px 14px 40px 14px;
-}
-.comment-user__text {
-  max-width: 220px;
-}
-.comment-actions {
-  margin-left: -70px;
-}
-.comments-answer {
-  margin-left: 20px;
-  border-left: 5px solid #eaeaea;
-  padding-left: 15px;
-  margin-top: 20px;
-}
-.talk-answer__list {
-  background-image: url(../images/dest/sectionInterview/interview-bg-second.jpg);
-  padding: 43px 0px 39px 46px;
-  margin-left: 0px;
-  margin-right: 0px;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 30px;
-}
-}
+
 @media (max-width: 375px) {
   .logo {
     padding: 9px 0 22px 0px;
     justify-content: center;
+  }
+
+  .present-bottom__img {
+    max-width: 320px;
+  }
+
+  .hero-box__decor-text {
+    bottom: 11px;
+    left: 113px;
+  }
+
+  .hero-box__decor-name {
+    top: 26px;
+    left: 24px;
+  }
+
+  .certificate {
+    min-height: 530px;
+  }
+
+  .certificate__offer {
+    max-width: 264px;
+    padding: 12px 9px;
+    text-align: center;
+    font: 400 14px/16px "Myriad Pro";
+    margin-bottom: 48px;
+    margin-top: 11px;
+  }
+
+  .certificate__text {
+    border: 1px solid #000;
+    padding: 5px 6px;
+    max-width: 280px;
+    font: 400 11px/16px "Myriad Pro";
+    text-align: center;
+    margin-bottom: 17px;
+  }
+
+  .certificate__discount {
+    font: 400 13px/16px "Myriad Pro";
+    width: 200px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+
+  .certificate__title {
+    font: 700 20px/36px "Myriad Pro";
+    margin-bottom: 5px;
+    margin-top: auto;
+  }
+
+  .talk-answer {
+    padding-right: 0px;
+  }
+
+  .talk {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .present-bottom__age-1 {
+    top: 124px;
+    left: 21%;
+  }
+
+  .present-bottom__age-2 {
+    top: 124px;
+    left: 33%;
+  }
+
+  .present-bottom__age-3 {
+    top: 124px;
+    left: 47%;
+  }
+
+  .present-bottom__age-4 {
+    top: 124px;
+    right: 105px;
+  }
+
+  .present-bottom__age-5 {
+    top: 124px;
+    right: 52px;
+  }
+
+  .table {
+    margin-right: 0px;
+  }
+
+  .table-row__item {
+    padding: 22px 10px 14px 10px;
+    width: 50%;
+  }
+
+  .talk-answer__action {
+    margin-right: 0px;
+  }
+
+  .talk-answer__text--blue {
+    padding: 20px 16px;
+    background-color: #353d80;
+    color: #fff;
+    margin-right: 0px;
+  }
+
+  .before-after {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .before-after__text-middle {
+    top: 82px;
+    left: 0;
+  }
+
+  .talk-answer__text--blueLight {
+    margin-right: 0px;
+  }
+
+  .form__btn {
+    height: 30px;
+    font: 700 16px/30px "Myriad Pro";
+
+  }
+
+  .form__input {
+    height: 30px;
+  }
+
+  .certificate__item {
+    color: #2356db;
+    font: 400 13px/20px "Myriad Pro";
+    margin-bottom: 10px;
+  }
+
+  .feedback-top {
+    background-color: #f7f7f7;
+    padding: 7px 22px 7px 40px;
+  }
+
+  .feedback-top__btns {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+
+  .feedback-bottom__input {
+    display: none;
+  }
+
+  .feedback-bottom-icon--face {
+    margin-left: 0px;
+  }
 }
-.present-bottom__img {
-  max-width: 320px;
-}
-.hero-box__decor-text {
-  bottom: 11px;
-  left: 113px;
-}
-.hero-box__decor-name {
-  top: 26px;
-  left: 24px;
-}
-.talk-answer {
-  padding-right: 0px;
-}
-.talk {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.present-bottom__age-1 {
-  top: 124px;
-  left: 21%;
-}
-.present-bottom__age-2 {
-  top: 124px;
-  left: 33%;
-}
-.present-bottom__age-3 {
-  top: 124px;
-  left: 47%;
-}
-.present-bottom__age-4 {
-  top: 124px;
-  right: 105px;
-}
-.present-bottom__age-5 {
-  top: 124px;
-  right: 52px;
-}
-.table {
-  margin-right: 0px;
-}
-.table-row__item {
-  padding: 22px 10px 14px 10px;
-  width: 50%;
-}
-.talk-answer__action {
-  margin-right: 0px;
-}
-.talk-answer__text--blue {
-  padding: 20px 16px;
-  background-color: #353d80;
-  color: #fff;
-  margin-right: 0px;
-}
-.before-after {
-  margin-right: 0px;
-  margin-bottom: 30px;
-}
-.before-after__text-middle {
-  top: 82px;
-  left: 0;
-}
-.talk-answer__text--blueLight {
-  margin-right: 0px;
-}
-}
+
 @media (max-width: 360px) {
 
   .logo {
@@ -337,7 +439,7 @@
     letter-spacing: .8px;
     color: #365799;
     margin-left: 0px;
-}
+  }
 
   .comment-user__text {
     max-width: 220px;
