@@ -1,0 +1,23 @@
+.swiper-pagination{
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.swiper-btn-prev,.swiper-btn-next{
+  @extend %bg-cover;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  bottom: 30px;
+  z-index: 15;
+  cursor: pointer;
+}
+.swiper-btn-prev{
+  left:30%;
+  background-image: url('../images/dest/arrow-prev.png');
+}
+.swiper-btn-next{
+  right: 30%;
+  background-image: url('../images/dest/arrow-next.png');
+}

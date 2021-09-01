@@ -1,0 +1,52 @@
+.hero {
+  padding-top: 36px;
+
+  &__title {
+    font: 700 30px / 36px $font;
+    color: $black;
+    margin-bottom: 35px;
+    padding-right: 35px;
+  }
+
+  &__date {
+    font: 400 16px / 19px $font;
+    color: #9C9C9C;
+    margin-bottom: 30px;
+  }
+  &-descr{
+    padding: 44px 25px 15px 15px;
+  }
+
+}
+
+.hero-box {
+  &__decor {
+    bottom: 26px;
+    left: 16px;
+    right: 16px;
+
+    &-name {
+      color: $white;
+      top: 44px;
+      left: 24px;
+    }
+
+    &-text {
+      bottom: 15px;
+      left: 164px;
+    }
+  }
+}
+
+.price-quotes {
+  background-color: #353D80;
+  padding: 17px 18px;
+  gap: 10px;
+  position: relative;
+  top: -1px;
+
+  &__item {
+    color: #FFE600;
+    font: 400 14px / 16px $font;
+  }
+}

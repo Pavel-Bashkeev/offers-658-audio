@@ -1,0 +1,378 @@
+@import '../../node_modules/reset-css/sass/reset';
+@import './blocks/classFrame';
+@import './blocks/vars';
+@import './vendor/mixins';
+@import './blocks/fonts';
+@import './blocks/global';
+
+
+@import './components/logo';
+@import './components/menu';
+@import './components/hero';
+@import './components/interview';
+@import './components/table';
+@import './components/order';
+@import './components/certificate';
+@import './components/comments';
+@import './components/sliderComments';
+@import './components/audio';
+
+@media (max-width: 420px) {
+  .hero-box__decor-name {
+    top: 34px;
+    left: 24px;
+  }
+
+  .hero-box__decor-text {
+    bottom: 11px;
+    left: 135px;
+  }
+
+  .present-bottom__img {
+    max-width: 370px;
+  }
+
+  .present-element--2 {
+    z-index: 1;
+    top: -107px;
+    left: 21px;
+  }
+
+  .present-element--3 {
+    right: 0px;
+    top: -70px;
+    width: 216px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .present-element--3 .present-element__arrow {
+    top: 28px;
+    left: 64px;
+  }
+  .present-element--4 {
+    bottom: 121px;
+    width: 130px;
+    left: -12px;
+    text-align: center;
+    z-index: 1;
+}
+.present-bottom__age-1 {
+  top: 147px;
+  left: 21%;
+}
+.present-bottom__age-2 {
+  top: 147px;
+  left: 33%;
+}
+.present-bottom__age-3 {
+  top: 147px;
+    left: 47%;
+}
+.present-bottom__age-4 {
+  top: 147px;
+  right: 105px;
+}
+.present-bottom__age-5 {
+  top: 147px;
+  right: 52px;
+}
+.present-bottom .present-bottom__text {
+  width: 100px;
+  bottom: 125px;
+  right: 0px;
+}
+.before-after__text-middle {
+  top: 92px;
+  left: 0;
+}
+.before-after__text-last {
+  bottom: 82px;
+  left: 0;
+}
+.comments-slider {
+  background-color: #f6f7f9;
+  padding: 37px 14px 40px 14px;
+}
+.comment-user__text {
+  max-width: 220px;
+}
+.comment-actions {
+  margin-left: -70px;
+}
+.comments-answer {
+  margin-left: 20px;
+  border-left: 5px solid #eaeaea;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+.talk-answer__list {
+  background-image: url(../images/dest/sectionInterview/interview-bg-second.jpg);
+  padding: 43px 0px 39px 46px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+}
+@media (max-width: 375px) {
+  .logo {
+    padding: 9px 0 22px 0px;
+    justify-content: center;
+}
+.present-bottom__img {
+  max-width: 320px;
+}
+.talk-answer {
+  padding-right: 0px;
+}
+.talk {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.present-bottom__age-1 {
+  top: 124px;
+  left: 21%;
+}
+.present-bottom__age-2 {
+  top: 124px;
+  left: 33%;
+}
+.present-bottom__age-3 {
+  top: 124px;
+  left: 47%;
+}
+.present-bottom__age-4 {
+  top: 124px;
+  right: 105px;
+}
+.present-bottom__age-5 {
+  top: 124px;
+  right: 52px;
+}
+.table {
+  margin-right: 0px;
+}
+.table-row__item {
+  padding: 22px 10px 14px 10px;
+  width: 50%;
+}
+.talk-answer__action {
+  margin-right: 0px;
+}
+.talk-answer__text--blue {
+  padding: 20px 16px;
+  background-color: #353d80;
+  color: #fff;
+  margin-right: 0px;
+}
+.before-after {
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+.before-after__text-middle {
+  top: 82px;
+  left: 0;
+}
+.talk-answer__text--blueLight {
+  margin-right: 0px;
+}
+}
+@media (max-width: 360px) {
+
+  .logo {
+    padding: 9px 0 22px 0px;
+    justify-content: center;
+  }
+
+  .hero__title {
+    font: 700 29px/36px "Myriad Pro";
+    color: #000;
+    margin-bottom: 35px;
+    padding-right: 0px;
+  }
+
+  .present-bottom__img {
+    max-width: 290px;
+  }
+
+  .order .product {
+    max-width: 290px;
+  }
+
+  .hero-box__decor-name {
+    color: #fff;
+    top: 20px;
+    left: 17px;
+  }
+
+  .hero-box__decor-text {
+    bottom: 15px;
+    left: 98px;
+    font: 400 13px / 14px "Roboto";
+  }
+
+  .price-quotes__item {
+    font: 400 12px/16px "Myriad Pro";
+  }
+
+  .hero-descr {
+    padding: 44px 15px 15px 15px;
+  }
+
+  .talk {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .talk-answer {
+    padding-right: 0px;
+  }
+
+  .present-element--4 {
+    bottom: 94px;
+    width: 130px;
+    left: -35px;
+  }
+
+  .present-element--5 {
+    right: 6px;
+  }
+
+  .present-element--1 {
+    top: -13px;
+    z-index: 1;
+    left: 1px;
+  }
+
+  .table {
+    margin-right: 0px;
+  }
+
+  .table-row__item {
+    padding: 23px 5px 14px;
+    font: 400 15px / 18px $font;
+  }
+
+  .talk-answer__list {
+    background-image: url(../images/dest/sectionInterview/interview-bg-second.jpg);
+    padding: 43px 14px 39px 55px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .talk-answer__list-item {
+    color: #fff;
+    position: relative;
+    font: 700 15px/20px "Myriad Pro";
+    padding-right: 0px;
+  }
+
+  .talk-answer__list-item::before {
+    top: -2px;
+  }
+
+  .talk-answer__action {
+    margin-right: 0;
+  }
+
+  .talk-answer__text--blue {
+    padding: 20px 16px;
+    background-color: #353d80;
+    color: #fff;
+    margin-right: 0px;
+  }
+
+  .before-after {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .talk-answer__text--blueLight {
+    background-color: #e4f8fd;
+    padding: 13px 20px;
+    margin-right: 0px;
+  }
+
+  .order {
+    padding: 0 0px;
+  }
+
+  .comments {
+    padding: 37px 5px 100px;
+  }
+
+  .comments-answer {
+    margin-left: 8px;
+    border-left: 5px solid #eaeaea;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+
+  .comments-slider {
+    background-color: #f6f7f9;
+    padding: 37px 1px 40px;
+  }
+
+  .comment-actions .comment-data,
+  .comment-actions .count-like {
+    font: 400 11px/15px Roboto;
+    letter-spacing: .8px;
+    color: #c4c4c4;
+  }
+
+  .comment-actions__btn {
+    font: 700 18px/19px Roboto;
+    letter-spacing: .8px;
+    color: #365799;
+    margin-left: 0px;
+}
+
+  .comment-user__text {
+    max-width: 220px;
+  }
+
+  .before-after__text-middle {
+    top: 66px;
+    left: 0;
+  }
+
+  .before-after__text-last {
+    bottom: 61px;
+    left: 0;
+  }
+
+  .present-bottom .present-bottom__text {
+    width: 100px;
+    bottom: 90px;
+    right: -2px;
+  }
+
+  .present-bottom__age-5 {
+    top: 115px;
+    right: 44px;
+  }
+
+  .present-bottom__age-3 {
+    top: 115px;
+    left: 45%;
+  }
+
+  .present-bottom__age-4 {
+    top: 115px;
+    right: 82px;
+  }
+
+  .present-bottom__age-2 {
+    top: 115px;
+    left: 31%;
+  }
+
+  .present-bottom__age-1 {
+    top: 115px;
+    left: 19%;
+  }
+}

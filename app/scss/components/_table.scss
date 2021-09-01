@@ -1,0 +1,34 @@
+.table{
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 35px;
+  margin-right: -20px;
+  &__th{
+    background-color: #E4F8FD;
+    border-bottom: 1px solid #000;
+
+    &-item{
+      width: 50%;
+      text-align: center;
+      padding: 9px 0px;
+      font: 600 20px / 30px $font;
+      &:not(:last-child){
+        border-right: 1px solid #000;
+      }
+    }
+  }
+  &-row{
+    &__item{
+      padding: 23px 28px 14px 18px;
+      width: 50%;
+      &:not(:last-child){
+        border-right: 1px solid #000;
+        padding-right: 35px;
+      }
+    }
+    &:not(:last-child){
+      border-bottom: 1px solid #000;
+    }
+  }
+}

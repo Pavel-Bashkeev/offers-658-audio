@@ -1,0 +1,9 @@
+@include font-face('Myriad Pro', '../fonts/MyriadPro-Regular', 400);
+@include font-face('Myriad Pro', '../fonts/MyriadPro-Italic', 400, "italic");
+@include font-face('Myriad Pro', '../fonts/MyriadPro-Semibold', 600);
+@include font-face('Myriad Pro', '../fonts/MyriadPro-SemiboldIt', 600, 'italic');
+@include font-face('Myriad Pro', '../fonts/MyriadPro-Bold', 700);
+
+@include font-face('Roboto', '../fonts/roboto-regular', 400);
+@include font-face('Roboto', '../fonts/roboto-bold', 700);
+

@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	letter-spacing: 0.43px;
+	font: 400 20px / 30px $font;
+	background-color: #ccc;
+}
+
+.btn-reset {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: inherit;
+	font: inherit;
+	padding: 0;
+
+}
+
+.wrapper {
+	max-width: 520px;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 100%;
+}
+
+
+.hide {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	position: absolute;
+	transition: opacity 1.3s;
+}
+.container{
+	padding: 0 15px;
+}

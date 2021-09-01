@@ -1,0 +1,38 @@
+.menu {
+  background-color: #353D80;
+  padding: 12px 14px;
+  overflow: hidden;
+  &__list {
+    animation: marquee 20s linear infinite;
+ padding-left: 100%;
+ display: inline-flex;
+
+    &:hover {
+      animation-play-state: paused
+    }
+  }
+  &__link {
+    color: $white;
+    font: 400 15px / 18px $font;
+    
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  &__item {
+    margin-right: 15px;
+    display: inline-block;
+  }
+
+  
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-100%, 0);
+  }
+}

@@ -1,0 +1,49 @@
+.order {
+  padding: 0 15px;
+
+  &__text {
+    padding: 40px 20px 86px;
+    color: $white;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+    background: radial-gradient(64.66% 64.66% at 72.3% 35.34%, #545CA6 0%, #353D80 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+
+    &--accent {
+      font-weight: 700;
+    }
+  }
+
+  &__title {
+    color: #FF5440;
+    text-align: center;
+    font: 700 30px / 36px $font;
+    margin-bottom: 10px;
+    margin: auto;
+    max-width: 441px;
+    margin-bottom: 20px;
+  }
+
+  .product {
+    margin-bottom: 50px;
+  }
+
+  &__count {
+    width: 220px;
+    padding: 15px;
+    font: 700 40px / 40px $font;
+    text-align: center;
+    color: $white;
+    background: linear-gradient(103deg, #353d80 8.33%, #555c9c 26%, #464d8f 58.05%, #6d74ae 69.73%, #353d80 93.25%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 35px;
+    animation: shine 5s linear infinite;
+    // background-size: 200% 200%;
+  }
+}
+
+@keyframes shine {
+  100%{
+    background-position: 220px 50%;
+  }
+}

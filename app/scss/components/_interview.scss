@@ -1,0 +1,344 @@
+.interview {
+  &__title {
+    font: 600 20px / 30px $font;
+    font-style: italic;
+    background-color: #E4F8FD;
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+  }
+
+  &__img {
+    margin-bottom: 30px;
+  }
+
+
+  &__news {
+    max-width: 268px;
+    font-style: italic;
+    color: #8d8d8d;
+    margin-bottom: 35px;
+  }
+}
+
+.talk {
+  padding-left: 15px;
+  padding-right: 25px;
+
+  &-question {
+    font-weight: 700;
+    margin-bottom: 35px;
+
+    &__text {
+      &--yellow {
+        background-color: yellow;
+        width: fit-content;
+      }
+    }
+  }
+
+  &-answer {
+    padding-right: 11px;
+
+    &__text {
+      margin-bottom: 30px;
+
+      &--accent {
+        font-weight: 700;
+      }
+
+      &--yellow {
+        background-color: yellow;
+      }
+
+      &--blue {
+        padding: 20px 16px;
+        background-color: #353D80;
+        color: $white;
+        margin-right: -20px;
+      }
+      &--blueLight{
+        background-color: #E4F8FD;
+        padding: 13px 20px;
+        margin-right: -20px;
+      }
+      &--icon{
+        position: relative;
+        padding-left: 41px;
+        &::before{
+          content: '';
+          position: absolute;
+          top:0;
+          left: 0;
+          width: 31px;
+          height: 31px;
+          @extend %bg-cover;
+          background-image: url('../images/dest/sprite.svg#icon-list-second');
+        }
+      }
+
+      &-descr {
+        text-align: center;
+        font: 400 16px / 20px $font;
+        font-style: italic;
+        color: #9c9c9c;
+        padding: 0px 0px 28px 4px;
+      }
+    }
+
+    &__title {
+      color: #353D80;
+      font: 700 25px /30px $font;
+      max-width: 360px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    &__list {
+      background-image: url('../images/dest/sectionInterview/interview-bg-second.jpg');
+      @extend %bg-cover;
+      padding: 43px 34px 39px 55px;
+      margin-left: -15px;
+      margin-right: -36px;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 30px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        z-index: -1;
+      }
+
+      &-item {
+        color: $white;
+        position: relative;
+        font: 700 20px / 25px $font;
+        padding-right: 30px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 2px;
+          left: -35px;
+          width: 20px;
+          height: 20px;
+          @extend %bg-cover;
+          background-image: url('../images/dest/sprite.svg#icon-list');
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+
+      }
+    }
+  }
+}
+
+.talk-answer__present {
+  padding-top: 101px;
+  padding-bottom: 20px;
+
+  &-img {
+    max-width: 360px;
+
+  }
+
+  &-top {
+    margin-bottom: 25px;
+  }
+}
+
+.present-element {
+  &__text {
+    font: 700 14px / 18px $font;
+    display: block;
+  }
+}
+
+.present-element--1 {
+  top: -39px;
+  z-index: 1;
+  left: 44px;
+
+  .present-element__arrow {
+    left: 73px;
+    top: 21px;
+
+    &-img {
+      width: 53px;
+      height: 46px;
+    }
+  }
+}
+
+.present-element--2 {
+  z-index: 1;
+  top: -107px;
+  left: 61px;
+
+  .present-element__arrow {
+    left: 87px;
+    top: 18px;
+
+    &-img {
+      width: 74px;
+      height: 103px;
+    }
+  }
+}
+
+.present-element--3 {
+  right: 44px;
+  top: -70px;
+  width: 216px;
+  text-align: center;
+  z-index: 1;
+
+  .present-element__arrow {
+    top: 28px;
+    left: 10px;
+
+    &-img {
+      width: 45px;
+      height: 52px;
+    }
+  }
+}
+
+.present-element--4 {
+  bottom: 121px;
+  width: 130px;
+  left: 41px;
+  text-align: center;
+  z-index: 1;
+
+  .present-element__arrow {
+    top: -4px;
+    right: -46px;
+
+    &-img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+.present-element--5 {
+  bottom: -29px;
+  right: 85px;
+  text-align: center;
+  z-index: 1;
+
+  .present-element__arrow {
+    top: -76px;
+    left: 83px;
+
+    &-img {
+      width: 75px;
+      height: 76px;
+    }
+
+    &-img--more {
+      width: 100px;
+      height: 167px;
+      top: -104px;
+      left: -1px;
+    }
+  }
+}
+
+.present-bottom {
+  &__img {
+    max-width: 441px;
+  }
+
+  span {
+    z-index: 1;
+    font: 700 15px/15px $font;
+    text-align: center;
+    width: 40px;
+  }
+
+  &__age-1 {
+    top: 177px;
+    left: 24%;
+  }
+
+  &__age-2 {
+    top: 177px;
+    left: 35%;
+  }
+
+  &__age-3 {
+    top: 178px;
+    left: 47%;
+  }
+
+  &__age-4 {
+    top: 178px;
+    right: 153px;
+  }
+
+  &__age-5 {
+    top: 179px;
+    right: 94px;
+  }
+
+  .present-bottom__text {
+    width: 100px;
+    bottom: 146px;
+    right: 40px;
+  }
+}
+
+.talk-answer__action {
+  border: 2px solid #353D80;
+  padding: 26px 37px 21px 53px;
+  margin-bottom: 45px;
+  margin-right: -20px;
+
+  &-item {
+    position: relative;
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -40px;
+      width: 31px;
+      height: 31px;
+      @extend %bg-cover;
+      background-image: url('../images/dest/sprite.svg#icon-list-second');
+    }
+  }
+}
+.before-after{
+  margin-right: -20px;
+  margin-bottom: 30px;
+  &__text-first{
+    top: -15px;
+    left: 0px;
+  }
+  &__text-middle{
+    top: 119px;
+    left: 0;
+  }
+  &__text-last{
+    bottom: 100px;
+    left: 0;
+
+  }
+}

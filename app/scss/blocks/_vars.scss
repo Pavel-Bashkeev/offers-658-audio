@@ -1,0 +1,20 @@
+// Colors
+$black: #000000;
+$white: #ffffff;
+$bg:#272727;
+$text-color: #727272;
+// Colors
+// Font
+$font: "Myriad Pro";
+// Font
+
+%bg-cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+%bg-contain{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
