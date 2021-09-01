@@ -1,16 +1,58 @@
-.audio-inner{
+.audio-feedback {
+
+  padding: 40px 15px;
+
+  &__info {
+    max-width: 300px;
+    margin-bottom: 20px;
+
+    .play-btn {
+      margin-right: 15px;
+      margin-top: -32px;
+      margin-left: 27px;
+    }
+  }
+}
+
+.audio-inner {
   max-width: 193px;
   background-color: #0084FF;
   border-radius: 50px;
   padding: 13px 15px;
-  
+  margin-left: auto;
+  margin-right: 50px;
+  position: relative;
+  z-index: 1;
+  &::before{
+    content: '';
+    width: 127px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 29px;
+    left: 31px;
+    z-index: -1;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    width: 19px;
+    height: 19px;
+    @extend %bg-cover;
+    background-image: url('../images/dest/sprite.svg#ok');
+  }
 }
-.audio-controls{
+
+.audio-controls {
   display: flex;
   align-items: center;
 
 }
-.time{
+
+.time , .time-thir, .time-two{
   display: block;
   margin-left: 56px;
   background-color: #fff;
@@ -19,4 +61,88 @@
   text-align: center;
   border-radius: 28px;
   font: 400 15px / 19px "Roboto";
+}
+
+.feedback-content {
+  margin-bottom: 137px;
+}
+
+.feedback {
+
+  &-top {
+    background-color: #F7F7F7;
+    padding: 7px 22px 7px 60px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 0px 28.9346px rgba(0, 0, 0, 0.1));
+
+
+    &__box {
+      width: 47px;
+      height: 47px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 10px;
+    }
+
+    &__btns {
+      margin-left: auto;
+
+      &-item {
+        &:not(:last-child) {
+          margin-right: 28px;
+        }
+      }
+    }
+
+    &__info-name {
+      font: 700 18px / 19px "Roboto";
+      letter-spacing: 0.7px;
+      margin-bottom: 5px;
+    }
+
+    &__info-descr {
+      font: 400 15px / 19px "Roboto";
+      letter-spacing: 0.7px;
+    }
+  }
+
+  &-bottom {
+    &-icon {
+      &:not(:last-child) {
+        margin-right: 17px;
+      }
+
+      &--face {
+        margin-left: -37px;
+      }
+    }
+
+    &__box {
+      margin-right: 17px;
+
+    }
+
+    &__input {
+      height: 43px;
+      width: 167px;
+      border-radius: 24px;
+      background-color: #F3F4F5;
+      border: none;
+      padding-left: 10px;
+      font: 400 17px / 19px 'Roboto';
+      letter-spacing: 0.8px;
+      color: $black;
+      padding-right: 40px;
+      &::placeholder {
+        font: 400 17px / 19px 'Roboto';
+        letter-spacing: 0.8px;
+        color: #9a9a9a;
+      }
+    }
+  }
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+  top: 32px;
 }
